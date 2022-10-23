@@ -1,0 +1,47 @@
+.container {
+    align-items: center;
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center ;
+    height: auto;
+}
+.appImage {
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+   
+    display:inline-block;
+    vertical-align:middle;
+  }
+  .appImage img{
+    width:100%;
+  }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.details>.key {
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+     
+    img {
+        text-align: center;
+    }
+    .circular_image {
+        margin-bottom: 60px;
+        max-width: 70%;
+    }
+
+}
